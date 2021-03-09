@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Ruben Simões 21905859">
+        <meta name="Keywords" content="Uma breve descrição de uma cidade">
+        <meta name="description" content="Website sobre Braga ">
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+        <title> A CIDADE DE BRAGA</title>
+
+    </head>
+    <body>
+        <body style="background-color:lightskyblue"></body>
+        <img src="images/Braga.png"> <br>
+        <a href="index.html" >Introdução </a> <code>|</code>
+        <a href="local.html" >Localização </a> <code>|</code>
+        <a href="multimedia.html" >Multimédia </a> <code>|</code>
+        <a href="info.html" >Informações </a> <code>|</code>
+        <b><a href="quizz.html" >Quizz </a></b> <code>|</code>
+        <a href="cometarios.html" >Comentários </a> <code>|</code>
+        <a href="../index.html" >Home</a>
+<h3>Quizz</h3>
+<form method="post"
+        action="mailto:nome.apelido@gmail.com">
+    
+    <fieldset>
+        <legend>Dados Pessoais </legend>
+            <p>Nome: <input type="text" name="nome" value="insira nome" required autofocus></p>
+                <p>Apelido: <input type="text" name="apelido"  value="insira apelido" required></p>
+                    <label for="email">Enter your email:</label>
+                        <input type="email" id="email" name="email" placeholder="exemplo:alberto@gmail.com" required>
+    </fieldset>
+    <fieldset>
+        <Legend>Introduza a sua data de aniversário</Legend>
+         <input id="date" type="date">
+    </fieldset>
+    <fieldset>
+        <legend>Quiz sobre Braga</legend>
+        <label for="quiz1">Onde se localiza Braga?</label><br><br>
+            <input type="radio" id="R1" name="resp1" value="Sul">
+                <label for="R1">Sul</label>
+                     <input type="radio" id="R2" name="resp1" value="Centro">
+                        <label for="R2">Centro</label>
+                            <input type="radio" id="R3" name="resp1" value="Norte">
+                                <label for="R3">Norte</label>
+    </fieldset>
+    <fieldset>
+        <label for="quiz2">Braga faz fronteira com que pais?</label><br><br>
+            <input type="checkbox" id="R1" name="Pais1" value="Espanha">
+                 <label for="Pais1"> Com Espanha</label><br>
+                    <input type="checkbox" id="R2" name="Pais2" value="França">
+                        <label for="Pais2"> Com França</label><br>
+                            <input type="checkbox" id="R3" name="Pais3" value="Portugal">
+                                 <label for="Pais3"> Com Portugal</label><br><br>
+    </fieldset>
+    <fieldset>
+        <legend>Quando é que foi fundada a cidade de <i>Braga</i>?</legend>
+            <label for="Fundação">Ano de Fundação? (1 a 20 a.c)</label>
+                <input type="number" id="Fundação" name="Fundação" min="1" max="20">
+    </fieldset>
+    <fieldset>
+        <legend>Qual é a cor do eblema de Braga?</legend>
+            <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+    </fieldset>
+    <fieldset>
+        <legend>De 0 a 100, quanto é que achas a cidade gira?</legend>
+            <input type="range" id="range" name="range" min="0" max="100" onchange="output.value=this.value"><br>
+                <label>Valor:</label>
+                     <output name="output"><output class="value"></output></output>
+    </fieldset>
+    <fieldset>
+        <legend>Como se chama este monumento?</legend>
+            <img src="images/Santuário do bom jesus_pequeno.png" alt="Trivia">
+                <label for="R1"></label>
+                    <br><br><input type="text" id="R1" name="R1" autocomplete="Monumento" size="40" maxlength="45">
+    </fieldset>
+    <fieldset>
+        <legend>Sugestões</legend>
+            <p>Submeta as suas fotos da beleza da cidade.txt</p><br>
+                <input type="file" id="files" name="files" multiple>
+                    
+    </fieldset>
+        <legend>SUBMETER QUIZZ</legend>
+        <br><input type="image" src="images/submit.png" alt="Submit" width="200" height="50" value="Submit">
+    </form>
+    <br><br>
+    <svg width="125" heigth="100" xmlns="index.html">
+        <a href="index.html">
+            <text x="50" y="50" fill="red">
+                Inicio
+                <animate id="B1" attributeName="fill" from="red" to="blue" dur="2s" fill="freeze" repeatCount="indefinite"/>
+            </text>
+        </a>
+    </svg>
+    <svg width="150" heigth="100" xmlns="index.html">
+        <a href="local.html">
+            <text x="50" y="50" fill="red">
+                Localização
+                <animate id="B1" attributeName="fill" from="red" to="blue" dur="2s" fill="freeze" repeatCount="indefinite"/>
+            </text>
+        </a>
+    </svg>
+    <svg width="150" heigth="100" xmlns="index.html">
+        <a href="multimedia.html">
+            <text x="50" y="50" fill="red">
+                Multimédia
+                <animate id="B1" attributeName="fill" from="red" to="blue" dur="2s" fill="freeze" repeatCount="indefinite"/>
+            </text>
+        </a>
+    </svg>
+    <svg width="150" heigth="100" xmlns="index.html">
+        <a href="info.html">
+            <text x="50" y="50" fill="red">
+                Informações
+                <animate id="B1" attributeName="fill" from="red" to="blue" dur="2s" fill="freeze" repeatCount="indefinite"/>
+            </text>
+        </a>
+    </svg>
+</svg>
+<svg width="125" heigth="100" xmlns="index.html">
+    <a href="quizz.html">
+        <text x="50" y="50" fill="red">
+            Quizz
+            <animate id="B1" attributeName="fill" from="red" to="blue" dur="2s" fill="freeze" repeatCount="indefinite"/>
+        </text>
+    </a>
+</svg>
+</svg>
+<svg width="150" heigth="100" xmlns="index.html">
+<a href="cometarios.html">
+    <text x="50" y="50" fill="red">
+        Comentários
+        <animate id="B1" attributeName="fill" from="red" to="blue" dur="2s" fill="freeze" repeatCount="indefinite"/>
+    </text>
+</a>
+</svg>
+</body>
+    </html>
