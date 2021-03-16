@@ -1,0 +1,151 @@
+/*Tipos de selectores*/
+
+/*Universal + fonte de texto do site*/
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*Tipo*/
+h1{
+    color:rgb(0, 110, 253);
+}
+h2{
+    color: rgb(31, 153, 153);
+}
+h3{
+    color:rgb(13, 35, 228);
+}
+
+/*Classe*/
+.paragrafo{
+    color: rgb(156, 23, 23);
+}
+
+/*Id*/
+#contacte-nos{
+    color: rgb(0, 81, 255);
+}
+/*atributo*/
+a[target=casa]{
+    background-color: rgb(0, 204, 255);
+}
+/*pseudo-class*/
+#menu:link{
+    color: blue
+}
+#menu:visited{
+    color: purple
+}
+#menu:hover{
+    color: cyan
+}
+#menu:active{
+    color: black
+}
+/*pseudo-elemento*/
+p::first-letter{
+    font-size: 1.5em;
+}
+
+/*Mudança de cor de fundo*/
+#corfundo{
+    background-color: rgba(0, 183, 255, 0.151);
+}
+
+/*Personalização de tabelas*/
+tr:nth-child(odd){
+    background: rgb(48, 80, 185);
+}
+tr:nth-child(even){
+    background: rgb(5, 179, 248);
+}
+
+/*Modificação de poema*/
+#poema{
+    background-color: white;
+}
+
+/*Seletores de atributo*/
+[class=titulo] {
+    background: rgb(0, 255, 234);
+  }
+
+[title~="Braga"] {
+    border: 5px solid yellow;
+  }
+
+[class|=paragrafo] {
+    background: lightblue;
+  }
+
+[class^="material"] {
+    background: rgba(10, 192, 107, 0.315);
+  }
+
+[class$="grande"] {
+    background: rgb(0, 140, 255);
+  }
+
+[class*="2"] {
+    background: rgb(124, 231, 160);
+  }
+
+  /*texto descritivo*/
+  .paragrafo::first-letter{
+    font-size: 2em;
+  }
+
+  .paragrafo::first-line{
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  span{
+        display: block;
+  }
+
+ /*Molduras*/
+  [id="fotopequena"] {
+    border: 2px solid rgb(0, 0, 0);
+  }
+  [id~="fotogrande"] {
+    border: 5px solid rgb(0, 0, 0);
+  }
+  [id="bragamain"] {
+    border: 5px solid rgb(0, 0, 0);
+  }
+  [id="Braga"] {
+    border: 5px solid black;
+  }
+  [id="freguesia"] {
+    border: 5px solid black;
+  }
+  [id="worcloud"] {
+    border: 5px solid black;
+  }
+
+  div.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 1;
+    padding: 5px;
+  }
+  div.relative {
+    position: relative;
+    left: 0px;
+  }
+  div.absolute {
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    width: 100px;
+    height: 100px;
+    opacity:0.5;
+  }
+  div.fixed {
+    position: fixed;
+    top: 100px;
+    left: 1550px;
+    width: 100px;
+    height: 100px;
+  }
+

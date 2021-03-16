@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Ruben Simões 21905859">
+        <meta name="Keywords" content="Uma breve descrição de uma cidade">
+        <meta name="description" content="Website sobre Braga ">
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="../Lab4/estilos.css">
+    </head>
+    <body>
+        <body id="corfundo"></body>
+        <header>
+            <title> A CIDADE DE BRAGA</title>
+                         <h1 class="titulo">Braga</h1> <br>
+                             <figure><img src="images/Braga.png" id="bragamain"><figcaption><details>Cidade de Braga</details></figcaption></figure> <br>
+        </header>
+        <nav>
+                <a href="index.html" id="menu"><i class="material-icons">&#xe7f1;</i>Introdução </a> <code>|</code>
+                    <a href="local.html" id="menu"><i class="material-icons">&#xe7f1;</i>Localização </a> <code>|</code>
+                        <a href="multimedia.html" id="menu"><i class="material-icons">&#xe8a7;</i>Multimédia </a> <code>|</code>
+                            <a href="info.html" id="menu"><i class="material-icons">&#xe88e;</i>Informações </a> <code>|</code>
+                                <a href="quizz.html" id="menu"><i class="material-icons">&#xe862;</i>Quizz </a> <code>|</code>
+                                <b><a href="cometarios.html" id="menu"><i class="material-icons">&#xe0b9;</i>Comentários</a></b> <code>|</code>
+                                        <a href="html5-css.html" id="menu"><i class="material-icons">&#xe88f;</i>html5-css.html</a> <code>|</code>
+                                            <a href="../index.html" target="casa" id="menu"><i class="material-icons">&#xe88a;</i>Home</a>
+        </nav>
+        <main>
+            <section>
+        <h3>Comentários</h3>
+    <form method="post"
+        action="mailto:nome.apelido@gmail.com">
+        <input type="hidden" id="opinião" name="opinião do laboratorio 4" value="Lab4">
+
+        <p id="contacte-nos">Por favor responda ao seguinte questionário de avaliação e diga-nos o que achou do nosso Website.</p>
+    </section>
+    
+    <section>
+    <fieldset>
+        <legend>1) De 0 a 100, o que acha do nosso site em geral?</legend>
+            <input type="range" id="range" name="range" min="0" max="100" onchange="output.value=this.value">
+                <label>Valor:</label>
+                     <output name="output"><output class="value"></output></output>
+    </fieldset>
+    <fieldset>
+        <legend>2) Gosta da estrutura em que a informação sobre a cidade foi exposta?</legend>
+            <span><input type="checkbox" id="R1" name="resp2" value="Sim">
+                 <label for="R1"> Sim</label></span>
+
+                 <span><input type="checkbox" id="R2" name="resp2" value="Não">
+                        <label for="R2"> Não</label></span>
+
+                            <span><input type="checkbox" id="R3" name="resp2" value="Ns/Nr">
+                                 <label for="R3"> Ns/Nr</label></span>
+    </fieldset>
+    <fieldset>
+        <legend>3) A caliografia o que achou?</legend>
+           <span> <input type="radio" id="R01" name="resp02" value="exelente">
+                <label for="R01">Portugues melhor que este não há!</label> </span>
+
+                    <span><input type="radio" id="R02" name="resp02" value="bom">
+                        <label for="R02">Uns erros aqui e ali mas nada de mais.</label></span>
+
+                        <span><input type="radio" id="R03" name="resp02" value="meh">
+                            <label for="R03">Demasiados erros o suficiente para não se conseguir perceber alguns pontos.</label></span>
+
+                            <span><input type="radio" id="R04" name="resp02" value="oh não">
+                                         <label for="R04">O Camões até se revira no caixão só de se ler este Portugues.</label></span>
+</fieldset>
+    <fieldset>
+            <legend>4) No que toca a esta mesma, pensa que falta algo a acrescentar para uma melhor coompreensão sobre a cidade?</legend>
+            <span><input type="radio" id="R4" name="resp3" value="Não">
+                    <label for="R4">Não falta nada, está tudo de acordo com os factos reais.</label></span>
+
+                    <span><input type="radio" id="R5" name="resp3" value="Sim">
+                            <label for="R5">Sim faltam informações crusciais a história da cidade.</label></span>
+
+                            <span> <input type="radio" id="R6" name="resp3" value="Ns/Nr">
+                                    <label for="R6">Não tenho conhecimentos suficientes para fazer esta avaliação.</label></span>
+    </fieldset>
+    <fieldset>
+        <legend>5) Em termos de fotos e complementando este segmento sobre as informações achava que se deveria introduzir mais fotos a mostrarem as paisagens de Braga e seus monumentos?</legend>
+        <span><input type="radio" id="R7" name="resp4" value="Sim">
+                <label for="R7">Sim faltavam mais imagens que demostram a cultura e beleza da cidade.</label></span>
+
+                <span><input type="radio" id="R8" name="resp4" value="Não">
+                        <label for="R8">Não, o que está demostra a riqueza da cidade.</label></span>
+
+                        <span><input type="radio" id="R9" name="resp4" value="Ns/Nr">
+                                <label for="R9">Não tenho opinião sobre este assunto ou é me indiferente.</label></span>
+</fieldset>
+<fieldset>
+    <legend>6) Agora terminado a avaliação das informações dispostas perguntamos se podia selecionar nas opções embaixo o que acharia melhor alterar na apresentação do site em si.</legend>
+    <span><input type="checkbox" id="R10" name="resp5" value="menu">
+        <label for="R10"> O formato do menu</label></span>
+
+        <span><input type="checkbox" id="R11" name="resp5" value="estilo letra">
+                 <label for="R11"> O estilo de letra dos paragrafos</label></span>
+
+                 <span><input type="checkbox" id="R12" name="resp5" value="estilo letra cabeçalhos">
+                         <label for="R12"> O estilo de letra dos cabeçalhos</label></span>
+
+                         <span><input type="checkbox" id="R13" name="resp5" value="Esquema cor">
+                                <label for="R13"> O esquema de cor do website</label></span>
+
+                                <span><input type="checkbox" id="R14" name="resp5" value="qualidade imagem">
+                                        <label for="R14"> A qualidade das imagens</label></span>
+
+                                        <span><input type="checkbox" id="R15" name="resp5" value="Ns/Nr">
+                                                 <label for="R15"> Nada</label></span>
+</fieldset>
+<fieldset>
+    <legend>7) Em questões de expansão deste website selecione aquilo que gostaria que fosse expandido </legend>
+    <span><input type="checkbox" id="R16" name="resp6" value="gatronomia">
+        <label for="R16"> Gostaria de ver a gastroonomia regional</label></span>
+
+        <span><input type="checkbox" id="R17" name="resp6" value="historia romana">
+                 <label for="R17"> Uma expansão da historia da peninsula desde da chegada dos romanos até a fundação da cidade.</label></span>
+
+                 <span><input type="checkbox" id="R18" name="resp6" value="historia da reconquista">
+                         <label for="R18"> Podia-se dar a conhecer os factos históricos desde do inicio da reconquista</label></span>
+
+                         <span><input type="checkbox" id="R19" name="resp6" value="historia de portugal">
+                                <label for="R19"> Falando de história porque não tambem sobre a sua historia desde o inicio da fundação de Portugal. </label>
+
+                                <span><input type="checkbox" id="R20" name="resp6" value="quizes ahoy">
+                                        <label for="R20"> Quizes mais Quizes muitos mais!!!!</label></span>
+
+                                        <span><input type="checkbox" id="R21" name="resp6" value="Ns/Nr">
+                                                 <label for="R21"> Nada ,não quero mais nada</label></span>
+</fieldset>
+<fieldset>
+    <legend>8) Nos gostamos de explorar o mundo e as suas paisagens o que acham de criarmos uma galleria de fotos onde poderiamos mostrar tudo o que se podia sobre esta cidade e arredores?</legend>
+    <span><input type="radio" id="R22" name="resp8" value="Sim">
+            <label for="R22">Seria uma ideia espetacular!! Assim podiamos ver mais sobre o mundo durante esta pandemia! .</label></span>
+
+            <span><input type="radio" id="R23" name="resp8" value="Não">
+                    <label for="R23">Não seria uma boa ideia porque assim deprimo so de pensar que não posso sair :(.</label></span>
+
+                    <span><input type="radio" id="R24" name="resp8" value="Ns/Nr">
+                            <label for="R24">Não tenho interesse sobre este assunto.</label></span>
+</fieldset>
+<br>
+    <legend>9) Completando este questionário e se achar que queria dizer mais alguma coisa numa dada pergunta pode escrever em baixo, pedimos apenas que identifique as perguntas associadas.</legend><br>
+    <textarea name="message" rows="25" cols="120">Clique-me.</textarea> 
+    <legend>10) Têm alguma Sugestões ou comentários extra a fazer, pode deixar cá em baixo.</legend><br>
+    <textarea name="message" rows="25" cols="120">Clique-me.</textarea>
+    <p id="contacte-nos">Pode submeter as suas respostas aqui em baixo</p>
+    <input type="submit" value="Submit">
+    </form>
+</section>
+<br><br>
+<section>
+    <svg width="125" height="100" xmlns="index.html">
+        <a href="index.html">
+            <text x="50" y="50" fill="red">
+                Inicio
+                <animate id="B1" attributeName="fill" from="red" to="blue" dur="2s" fill="freeze" repeatCount="indefinite"/>
+            </text>
+        </a>
+    </svg>
+    <svg width="150" height="100" xmlns="index.html">
+        <a href="local.html">
+            <text x="50" y="50" fill="red">
+                Localização
+                <animate id="B1" attributeName="fill" from="red" to="blue" dur="2s" fill="freeze" repeatCount="indefinite"/>
+            </text>
+        </a>
+    </svg>
+    <svg width="150" height="100" xmlns="index.html">
+        <a href="multimedia.html">
+            <text x="50" y="50" fill="red">
+                Multimédia
+                <animate id="B1" attributeName="fill" from="red" to="blue" dur="2s" fill="freeze" repeatCount="indefinite"/>
+            </text>
+        </a>
+    </svg>
+    <svg width="150" height="100" xmlns="index.html">
+        <a href="info.html">
+            <text x="50" y="50" fill="red">
+                Informações
+                <animate id="B1" attributeName="fill" from="red" to="blue" dur="2s" fill="freeze" repeatCount="indefinite"/>
+            </text>
+        </a>
+    </svg>
+</svg>
+<svg width="125" height="100" xmlns="index.html">
+    <a href="quizz.html">
+        <text x="50" y="50" fill="red">
+            Quizz
+            <animate id="B1" attributeName="fill" from="red" to="blue" dur="2s" fill="freeze" repeatCount="indefinite"/>
+        </text>
+    </a>
+</svg>
+</svg>
+<svg width="150" height="100" xmlns="index.html">
+<a href="cometarios.html">
+    <text x="50" y="50" fill="red">
+        Comentários
+        <animate id="B1" attributeName="fill" from="red" to="blue" dur="2s" fill="freeze" repeatCount="indefinite"/>
+    </text>
+</a>
+</svg>
+</section>
+</main>
+<footer>Ruben Simões a21905859 Universidade Lusofona 2021</footer>
+    </body>
+    </html>
