@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Ruben Simões 21905859">
+        <meta name="Keywords" content="Uma breve descrição de uma cidade">
+        <meta name="description" content="Website sobre Braga ">
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="../Lab4/estilos.css">
+    </head>
+    <body>
+        <body id="corfundo"></body>
+        <header>
+            <title> A CIDADE DE BRAGA</title>
+                         <h1 class="titulo">Braga</h1> <br>
+                            <figure><img src="images/Braga.png" id="bragamain"><figcaption><details>Cidade de Braga</details></figcaption></figure> <br>
+            </header>
+            <nav>
+                   <a href="index.html" id="menu"><i class="material-icons">&#xe7f1;</i>Introdução </a> <code>|</code>
+                        <a href="local.html" id="menu"><i class="material-icons">&#xe7f1;</i>Localização </a> <code>|</code>
+                            <a href="multimedia.html" id="menu"><i class="material-icons">&#xe8a7;</i>Multimédia </a> <code>|</code>
+                                <a href="info.html" id="menu"><i class="material-icons">&#xe88e;</i>Informações </a> <code>|</code>
+                                <b><a href="quizz.html" id="menu"><i class="material-icons">&#xe862;</i>Quizz </a></b> <code>|</code>
+                                        <a href="cometarios.html" id="menu"><i class="material-icons">&#xe0b9;</i>Comentários</a> <code>|</code>
+                                            <a href="html5-css.html" id="menu"><i class="material-icons">&#xe88f;</i>html5-css.html</a> <code>|</code>
+                                                <a href="../index.html" target="casa" id="menu"><i class="material-icons">&#xe88a;</i>Home</a>
+            </nav>
+            <main>
+            <section>    
+<h3>Quizz</h3>
+<form method="post"
+        action="mailto:nome.apelido@gmail.com">
+    
+    <fieldset>
+        <legend>Dados Pessoais </legend>
+            <legend>Nome: <input type="text" name="nome" value="insira nome" required autofocus></legend>
+                <legend>Apelido: <input type="text" name="apelido"  value="insira apelido" required></legend>
+                    <label for="email">Enter your email:</label>
+                        <input type="email" id="email" name="email" placeholder="exemplo:alberto@gmail.com" required></span>
+    </fieldset>
+</section>
+<section>
+    <fieldset>
+        <Legend>Introduza a sua data de aniversário</Legend>
+         <input id="date" type="date">
+    </fieldset>
+    <fieldset>
+        <legend>Quiz sobre Braga</legend>
+        <span><label for="quiz1">Onde se localiza Braga?</label>
+            <input type="radio" id="R1" name="resp1" value="Sul">
+                <label for="R1">Sul</label></span>
+
+                <span><input type="radio" id="R2" name="resp1" value="Centro">
+                        <label for="R2">Centro</label></span>
+
+                        <span><input type="radio" id="R3" name="resp1" value="Norte">
+                                <label for="R3">Norte</label></span>
+    </fieldset>
+    <fieldset>
+        <label for="quiz2">Braga faz fronteira com que pais?</label>
+        <span><input type="checkbox" id="R1" name="Pais1" value="Espanha">
+                 <label for="Pais1"> Com Espanha</label></span>
+
+                 <span><input type="checkbox" id="R2" name="Pais2" value="França">
+                        <label for="Pais2"> Com França</label></span>
+
+                        <span><input type="checkbox" id="R3" name="Pais3" value="Portugal">
+                                 <label for="Pais3"> Com Portugal</label></span>
+    </fieldset>
+    <fieldset>
+        <legend>Quando é que foi fundada a cidade de <i>Braga</i>?</legend>
+        <span><label for="Fundação">Ano de Fundação? (1 a 20 a.c)</label>
+                <input type="number" id="Fundação" name="Fundação" min="1" max="20"></span>
+    </fieldset>
+    <fieldset>
+        <span><legend>Qual é a cor do eblema de Braga?</legend>
+            <input type="color" id="favcolor" name="favcolor" value="#ff0000"></span>
+    </fieldset>
+    <fieldset>
+        <span><legend> 0 a 100, quanto é que achas a cidade gira?</legend>
+            <input type="range" id="range" name="range" min="0" max="100" onchange="output.value=this.value"></span>
+
+            <span><label>Valor:</label>
+                     <output name="output"><output class="value"></output></output></span>
+    </fieldset>
+    <fieldset>
+        <span><legend>Como se chama este monumento?</legend>
+            <img src="images/Santuário do bom jesus_pequeno.png" alt="Trivia">
+                <label for="R1"></label>
+                    <input type="text" id="R1" name="R1" autocomplete="Monumento" size="40" maxlength="45"></span>
+    </fieldset>
+    <fieldset>
+        <span><legend>Sugestões</legend>
+            <legend>Submeta as suas fotos da beleza da cidade.txt</legend>
+                <input type="file" id="files" name="files" multiple></span>
+                    
+    </fieldset>
+    <span><legend id="contacte-nos">SUBMETER QUIZZ</legend>
+        <input type="image" src="images/submit.png" alt="Submit" width="200" height="50" value="Submit"></span>
+    </form>
+        </section>
+        <br><br>
+        <center> <aside>
+            <img src="images/b1.png" title="foto" id="b1" alt="Cidade de Braga">
+            <img src="images/b2.png"  title="foto" id="b2" alt="Cidade de Braga">
+        </aside> </center>
+        <aside>
+            <center> <p>  Como cidade Braga têm uma beleza floral e cultural que poucas têm, onde a estética muda consoante o tempo e clima do ano. <br>
+                Assim sendo Braga é uma cidade onde se pode dar uns quantos passeios ao ar livre.
+             </p> </center>
+        </aside>
+        <section>
+    <svg width="125" height="100" xmlns="index.html">
+        <a href="index.html">
+            <text x="50" y="50" fill="red">
+                Inicio
+                <animate id="B1" attributeName="fill" from="red" to="blue" dur="2s" fill="freeze" repeatCount="indefinite"/>
+            </text>
+        </a>
+    </svg>
+    <svg width="150" height="100" xmlns="index.html">
+        <a href="local.html">
+            <text x="50" y="50" fill="red">
+                Localização
+                <animate id="B1" attributeName="fill" from="red" to="blue" dur="2s" fill="freeze" repeatCount="indefinite"/>
+            </text>
+        </a>
+    </svg>
+    <svg width="150" height="100" xmlns="index.html">
+        <a href="multimedia.html">
+            <text x="50" y="50" fill="red">
+                Multimédia
+                <animate id="B1" attributeName="fill" from="red" to="blue" dur="2s" fill="freeze" repeatCount="indefinite"/>
+            </text>
+        </a>
+    </svg>
+    <svg width="150" height="100" xmlns="index.html">
+        <a href="info.html">
+            <text x="50" y="50" fill="red">
+                Informações
+                <animate id="B1" attributeName="fill" from="red" to="blue" dur="2s" fill="freeze" repeatCount="indefinite"/>
+            </text>
+        </a>
+    </svg>
+</svg>
+<svg width="125" height="100" xmlns="index.html">
+    <a href="quizz.html">
+        <text x="50" y="50" fill="red">
+            Quizz
+            <animate id="B1" attributeName="fill" from="red" to="blue" dur="2s" fill="freeze" repeatCount="indefinite"/>
+        </text>
+    </a>
+</svg>
+</svg>
+<svg width="150" height="100" xmlns="index.html">
+<a href="cometarios.html">
+    <text x="50" y="50" fill="red">
+        Comentários
+        <animate id="B1" attributeName="fill" from="red" to="blue" dur="2s" fill="freeze" repeatCount="indefinite"/>
+    </text>
+</a>
+</svg>
+</section>
+</main>
+<footer>Ruben Simões a21905859 Universidade Lusofona 2021</footer> 
+</body>
+    </html>
